@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    height: 100vh;
+    background-color: #324376;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-imagem {
+    height: 72px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #f68e5f;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #586ba4;
+}
+.conteudo {
+    text-align: center;
+}
+.conteudo-h1 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 58px;
+    color: #F76C5E;
+}
+.conteudo-h3 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #F76C5E;
+}
+.conteudo-h4 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #F76C5E;
+}
+.conteudo-botoes {
+    margin-top: 20px;
+}
+.conteudo-botao-curriculo {
+    background-color: #324376;
+    border-color: #F5DD90;
+    color: #F5DD90;
+    border-width: 3px;
+    width: 180px;
+    height: 55px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    -size: 24px;
+    font-size: 24px;
+}
+.conteudo-botao-contato {
+    background-color: #F5DD90;
+    color: #324376;
+    width: 180px;
+    height: 55px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    -size: 24px;
+    font-size: 24px;
+}
+.rodape {
+    text-align: center;
+    padding: 32px;
+    border-top: 0.4px solid #586ba4;
+}
+.rodape-redessociais {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+.rodape-copyright {
+    font-family: 'Sarala', sans-serif;
+}
