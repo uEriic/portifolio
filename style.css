@@ -11,6 +11,9 @@ body {
     height: 100vh;
     background-color: #324376;
 }
+section {
+    margin: 25px;
+}
 .cabecalho {
     display: flex;
     flex-direction: row;
